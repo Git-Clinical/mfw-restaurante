@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway&display=swap');
 
+body {
+font-family: 'Raleway', sans-serif;
+}
+
 .container-fluid {
     padding: 0;
     margin: 0;
@@ -110,10 +114,9 @@ nav.navbar {
     margin-top: 0;
 }
 
-#our_story h3,
-#our_story p {
-    font-family: 'Raleway', sans-serif;
-}
+/* CREATE A NEW CLASS TO REPRESENT RALEWAY FONT */
+
+
 #our_story p {
     font-weight: 300;
 }
@@ -164,6 +167,105 @@ nav.navbar {
     font-size: 2em;
     text-shadow: 1px 1px 5px #0a0a0a;
 }
+
+#menu {
+    background-image: url('../img/black_linen.png');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 70px;
+
+}
+
+#menu h1 {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#menu h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#menu a {
+    color: #f8512f;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+
+#menu p {
+    text-align: justify;
+    font-weight: 300px;
+}
+
+.food {
+    background-color: #fff;
+    /* padding: 20px 0; */
+}
+
+#menu .nav li a: hover {
+    background-color: rgba(255,255,255,0.1);
+    border-color: transparent;
+}
+
+#menu .nav-justified li a {
+    margin-bottom: -5x;
+}
+
+#menu .nav-tabs li a {
+    border: none;
+}
+
+.contact_form {
+    background-color: #ff6633;
+    color: #fff;
+    border: 1px solid;
+}
+
+.contact_form form {
+    padding: 5% 0;
+}
+
+.contact_form span {
+    color: #ff0d06;
+}
+
+#contact {
+    background-color: #f8512f;
+    color: #fff;
+}
+
+#contact h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+#contact p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#contact_fine_print {
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+address {
+    font-weight: 300;
+}
+
+.contact_bottom {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+@media(max-width: 768px) {
+    
+}
+
 
 .required::after {
     content: '*';
