@@ -58,6 +58,10 @@ nav.navbar {
     background-position: center;
 }
 
+.main-logo {
+    height: 400px;
+}
+
 .main_img1 {
     background-image: url('../img/wood-2.jpg');
 }
@@ -159,4 +163,10 @@ nav.navbar {
     font-weight: 300;
     font-size: 2em;
     text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.required::after {
+    content: '*';
+    color: purple;
+    font-size: 2rem;
 }
